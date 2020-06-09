@@ -104,3 +104,4 @@ end)
 others_single:Cheat("Button", "Blood Samurai", function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Marethyu9999/local_sided_script_collection_v2/Single_game_scripts/blood_samurai_gui.lua'), true))()
 end)
+https://raw.githubusercontent.com/Marethyu9999/local_sided_script_collection_v2/Single_game_scripts/Doomspire%20X.lua
