@@ -138,3 +138,21 @@ local Credits = InformatioCategory:Sector("Credits")
 Credits:Cheat("Label", "Project Finity for their great UI libary")
 Credits:Cheat("Label", "Marethyu#1248 for collecting the scripts")
 Credits:Cheat("Label", "robloxscripts.com for their scripts")
+--v1.1.2
+others_single:Cheat("Button", "Arsenal Autofarm", function()
+   _G.on = true -- true or false
+   _G.Time = 5 -- ARSENAL ONLY this edits the time it takes for it to check whether you are on the menu, i reccommend 5 but 2 is my computers speed. the lower it is the faster it leaves when the match is done. but the lower it is the more chance it will just constantly rejoin.
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Jakekill871/public-scripts/master/FPSAutofarmUsingCriShouxUI"))();
+end)
+--v1.1.3
+others_single:Cheat("Button", "Dragon Blox Autofarm", function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/Marethyu9999/local_sided_script_collection_v2/Single_game_scripts/dragon_blox_autofarm.lua'), true))()
+end)
+--v1.1.4
+others_single:Cheat("Button", "MM 2", function()
+   loadstring(game:HttpGet(('https://pastebin.com/raw/NwbndAwB'), true))()
+end)
+--v1.1.5
+others_single:Cheat("Button", "Super Power Sim GUI", function()
+   loadstring(game:HttpGet(('https://pastebin.com/raw/hFFpfLPy'), true))()
+end)
