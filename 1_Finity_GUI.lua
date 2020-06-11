@@ -1,8 +1,10 @@
 local Finity = loadstring(game:HttpGet("http://finity.vip/scripts/finity_lib.lua"))()
 local FinityWindow = Finity.new(true)
 FinityWindow.ChangeToggleKey(Enum.KeyCode.Insert)
+-- Hubs
 local HubCategory = FinityWindow:Category("Hubs")
 local ScriptHubButtons = HubCategory:Sector("Hubs")
+-- ScriptHubButtons
 ScriptHubButtons:Cheat("Button", "Dark Hub", function()
    loadstring(game:HttpGet(('https://pastebin.com/raw/yCrBkPaY'), true))()
 end)
@@ -22,12 +24,8 @@ ScriptHubButtons:Cheat("Button", "Lunari Hub", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Marethyu9999/local_sided_script_collection_v2/Hubs/lunari_hub_crack.lua",true))()
 end)
 ScriptHubButtons:Cheat("Button", "idk Hub", function()
-getgenv().checkGame = true -- Checks what game you are in and auto-loads the script
+getgenv().checkGame = true
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripter/Scripts/master/Init.lua",true))()
--- load("UniBypass")
--- load("R2S")
--- load("Hitbox")
--- load("AntiAFK")
 end)
 ScriptHubButtons:Cheat("Button", "Simulator Hub", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/naruto9161/S1mulat0r-Hub/master/S1mula0r-Hub-NonBeta-Version.lua",true))()
@@ -38,6 +36,7 @@ end)
 ScriptHubButtons:Cheat("Button", "Vortex Hub", function()
    loadstring(game:HttpGet(('https://pastebin.com/raw/JQPzcZH4'), true))()
 end)
+-- AdminHubButtons
 local AdminHubButtons = HubCategory:Sector("Admin")
 AdminHubButtons:Cheat("Button", "CMD-FE X", function()
    loadstring(game:HttpGet(('https://pastebin.com/raw/F3JvpCDM'), true))()
@@ -47,6 +46,7 @@ AdminHubButtons:Cheat("Button", "Infinite Yield", function()
 end)
 local mostGamesCategory = FinityWindow:Category("most Games")
 local GuisCategory = mostGamesCategory:Sector("Guis")
+-- GuisCategory
 GuisCategory:Cheat("Button", "Lagswitch", function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Marethyu9999/local_sided_script_collection_v2/for_the_most_games/lagswitch_gui.lua'), true))()
 end)
@@ -54,6 +54,7 @@ GuisCategory:Cheat("Button", "Unachorded Parts", function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Marethyu9999/local_sided_script_collection_v2/for_the_most_games/tp_unachorded_parts_gui.lua'), true))()
 end)
 local single_most_scripts = mostGamesCategory:Sector("Single Scripts")
+-- single_most_scripts
 single_most_scripts:Cheat("Button", "Anti AFK", function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Marethyu9999/local_sided_script_collection_v2/for_the_most_games/anti_afk.lua'), true))()
 end)
@@ -61,6 +62,7 @@ single_most_scripts:Cheat("Button", "Chat Bypass", function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Marethyu9999/local_sided_script_collection_v2/for_the_most_games/lightspeed_chat_bypass.lua'), true))()
 end)
 local graphic_scripts = mostGamesCategory:Sector("Graphical Scripts")
+-- graphic_scripts
 graphic_scripts:Cheat("Button", "lower Graphics(more FPS)", function()
    for i,v in pairs(workspace:GetDescendants()) do
 if v:IsA("Part") or v:IsA("MeshPart") or v:IsA("BasePart") then
@@ -77,11 +79,13 @@ graphic_scripts:Cheat("Button", "Better Graphics", function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Marethyu9999/local_sided_script_collection_v2/for_the_most_games/graphic_enhancer.lua'), true))()
 end)
 local other_most = mostGamesCategory:Sector("Other")
+-- other_most
 other_most:Cheat("Button", "invisible Fling", function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Marethyu9999/local_sided_script_collection_v2/for_the_most_games/invis_fling.lua'), true))()
 end)
 local single_scripts = FinityWindow:Category("Single Scripts")
 local jailbreak = single_scripts:Sector("Jailbreak")
+-- jailbreak
 jailbreak:Cheat("Button", "Tesla", function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Marethyu9999/local_sided_script_collection_v2/Jailbreak/jailbreak_tesla_gui.lua'), true))()
 end)
@@ -95,6 +99,7 @@ jailbreak:Cheat("Button", "Open all Safes", function()
    loadstring(game:HttpGet(('https://pastebin.com/raw/icNbh2vs'), true))()
 end)
 local anime_fight_sim = single_scripts:Sector("Anime Fight Simulator")
+-- anime_fight_sim
 anime_fight_sim:Cheat("Button", "Autofarm", function()
    loadstring(game:HttpGet(('https://pastebin.com/raw/nY2WC60k'), true))()
 end)
@@ -105,6 +110,7 @@ anime_fight_sim:Cheat("Button", "Devil Fruit ESP", function()
    loadstring(game:HttpGet(('https://pastebin.com/raw/NBQKENww'), true))()
 end)
 local ragdoll_engine = single_scripts:Sector("Ragdoll Engine")
+--ragdoll_engine
 ragdoll_engine:Cheat("Button", "GUI", function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Marethyu9999/local_sided_script_collection_v2/Single_game_scripts/ragdoll_engine_gui.lua'), true))()
 end)
@@ -112,6 +118,7 @@ ragdoll_engine:Cheat("Button", "invis all", function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Marethyu9999/local_sided_script_collection_v2/Single_game_scripts/ragdoll_engine_everything_invisible.lua'), true))()
 end)
 local others_single = single_scripts:Sector("Others")
+-- others_single
 others_single:Cheat("Button", "Blox Hunt", function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Marethyu9999/local_sided_script_collection_v2/Single_game_scripts/blox_hunt.lua'), true))()
 end)
@@ -137,8 +144,8 @@ Credits:Cheat("Label", "Marethyu#1248 for collecting the scripts")
 Credits:Cheat("Label", "robloxscripts.com for their scripts")
 --v1.1.2
 others_single:Cheat("Button", "FPS Games Autofarm", function()
-   _G.on = true -- true or false
-   _G.Time = 5 -- ARSENAL ONLY this edits the time it takes for it to check whether you are on the menu, i reccommend 5 but 2 is my computers speed. the lower it is the faster it leaves when the match is done. but the lower it is the more chance it will just constantly rejoin.
+   _G.on = true
+   _G.Time = 5
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Jakekill871/public-scripts/master/FPSAutofarmUsingCriShouxUI"))();
 end)
 others_single:Cheat("Label", "Arsenal")
@@ -148,14 +155,21 @@ others_single:Cheat("Button", "Dragon Blox Autofarm", function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Marethyu9999/local_sided_script_collection_v2/Single_game_scripts/dragon_blox_autofarm.lua'), true))()
 end)
 --v1.1.4
+-- added Murder Mystery 2
 others_single:Cheat("Button", "MM 2", function()
    loadstring(game:HttpGet(('https://pastebin.com/raw/NwbndAwB'), true))()
 end)
 --v1.1.5
+-- added Super Power Sim GUI
 others_single:Cheat("Button", "Super Power Sim GUI", function()
    loadstring(game:HttpGet(('https://pastebin.com/raw/hFFpfLPy'), true))()
 end)
 --v1.1.6
+--added be a parkour ninja
 others_single:Cheat("Button", "Be a Parkour Ninja", function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Marethyu9999/local_sided_script_collection_v2/Single_game_scripts/be_a_parkour_ninja.lua'), true))()
+end)
+--v1.1.7
+ScriptHubButtons:Cheat("Button", "Keylime Hub", function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/Marethyu9999/local_sided_script_collection_v2/Hubs/keylime_cracked_hub.lua'), true))()
 end)
