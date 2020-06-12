@@ -87,7 +87,7 @@ local single_scripts = FinityWindow:Category("Single Scripts")
 local jailbreak = single_scripts:Sector("Jailbreak")
 -- jailbreak
 jailbreak:Cheat("Button", "Tesla", function()
-   loadstring(game:HttpGet(('https://raw.githubusercontent.com/Marethyu9999/local_sided_script_collection_v2/Jailbreak/jailbreak_tesla_gui.lua'), true))()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/linsonder6/Tesla/master/TeslaMain.lua'), true))()
 end)
 jailbreak:Cheat("Button", "free Gamepass", function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Marethyu9999/local_sided_script_collection_v2/Jailbreak/jailbreak_free_gamepass.lua'), true))()
