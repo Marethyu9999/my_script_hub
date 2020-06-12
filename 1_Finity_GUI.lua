@@ -170,3 +170,7 @@ end)
 ScriptHubButtons:Cheat("Button", "Keylime Hub", function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Marethyu9999/local_sided_script_collection_v2/Hubs/keylime_cracked_hub.lua'), true))()
 end)
+--v1.1.8
+others_single:Cheat("Button", "Build and Survive", function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/Marethyu9999/local_sided_script_collection_v2/Single_game_scripts/build_and_survive.lua'), true))()
+end)
