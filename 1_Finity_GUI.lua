@@ -34,7 +34,7 @@ ScriptHubButtons:Cheat("Button", "Nox Hub", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/wFj6yXY8",true))()
 end)
 ScriptHubButtons:Cheat("Button", "Vortex Hub", function()
-   loadstring(game:HttpGet(('https://pastebin.com/raw/JQPzcZH4'), true))()
+   loadstring(game:HttpGet(("https://raw.githubusercontent.com/Eprx/scripts/master/vortexhub"), true))()
 end)
 -- AdminHubButtons
 local AdminHubButtons = HubCategory:Sector("Admin")
